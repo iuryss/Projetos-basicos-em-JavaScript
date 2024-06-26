@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /* Define a altura do corpo como 100% da viewport */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(16, 16, 95);
+    font-size: 4em; /* 400% */
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: rgb(16, 16, 95);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#numero {
+    font-size: 3.5em; 
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 133, 21);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 30%; /* Ajuste o tamanho conforme necessário */
+    height: 30%; /* Ajuste o tamanho conforme necessário */
+}

@@ -1,0 +1,45 @@
+*{
+    margin: none;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+#modal{
+    margin-bottom: 60px;
+    width: 60%;
+    height: 40vh;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(103, 140, 228);
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #fff;
+    border-style: solid;
+    
+}
+
+span {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
